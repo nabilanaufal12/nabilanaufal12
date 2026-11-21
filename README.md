@@ -1,53 +1,62 @@
-# Nabil A. Naufal
+# Nabil
 
-**Informatics Engineering Undergraduate** at [Universitas Maritim Raja Ali Haji (UMRAH)](https://umrah.ac.id)  
-*Autonomous Systems & Embedded Software Lead at **Tim Navantara UMRAH***  
-Tanjungpinang, Kepulauan Riau, Indonesia
-
----
-
-### About
-
-Undergraduate student specializing in **Autonomous Marine Robotics, Edge AI, and Full-Stack Software Engineering**. 
-
-Currently leading the autonomous software and navigation stack for **Navantara ASV** (Autonomous Surface Vessel) representing UMRAH in the national **Kontes Kapal Indonesia (KKI)** organized by Balai Pengembangan Talenta Indonesia (BPTI / Kemendikbudristek). Experienced in building end-to-end robotics pipelines—from sensor integration and TensorRT vision models to ROS 2 control algorithms and low-level firmware.
+**Informatics Engineering Student** at [Universitas Maritim Raja Ali Haji (UMRAH)](https://umrah.ac.id)  
+Head of Programmer Division at UKM Robotika UMRAH &middot; Autonomous Systems Lead at Tim Navantara ASV  
+Kepulauan Riau, Indonesia
 
 ---
 
-### Engineering & Focus Areas
+### Overview
 
-* **Autonomous Robotics (ROS 2)**: Autonomous surface vehicle navigation, spatial costmap generation, buoy gate detection & pairing, and adaptive Pure Pursuit path tracking. Cross-compatible architectures on ROS 2 Humble and Jazzy with Gazebo simulation and URDF modeling.
-* **Edge AI & Computer Vision**: Object detection pipelines for marine environments using YOLOv11, optimized and deployed via NVIDIA TensorRT on Jetson Orin Nano hardware.
-* **Embedded Systems & Control**: Microcontroller firmware development (ESP32 / Arduino C++), dual-thruster/rudder kinematics, GNSS/RTK and IMU sensor fusion, and GCS telemetry bridges.
-* **Software & Web Engineering**: Production web application development with Laravel 11, Tailwind CSS, and relational database architecture.
+Informatics Engineering student with a strong focus on autonomous robotics, edge computing, embedded systems, and full-stack software development. 
 
----
-
-### Key Projects
-
-#### 🚢 [Navantara ASV](https://github.com/nabilanaufal12) — Autonomous Surface Vessel (KKI)
-Modular ROS 2 autonomous navigation and perception stack for a competition-class catamaran ASV.
-* **Perception & Vision**: Custom-trained YOLOv11 model converted to TensorRT (`best.engine`) running on an NVIDIA Jetson Orin Nano for real-time red/green buoy detection and obstacle tracking.
-* **Navigation Stack**: Custom ROS 2 packages (`navantara_navigation`, `navantara_perception`, `navantara_control_bridge`) featuring a 4-second global spatial memory buffer, dynamic gate midpoint calculations, and rolling 2D costmaps in RViz2.
-* **Low-Level Hardware**: Custom ESP32 firmware handling closed-loop propulsion, inverse steering kinematics, and failsafe modes over serial telemetry.
-
-#### 🌐 Temu UMRAH — Campus Activity & Organization Platform
-Comprehensive web platform for university student organizations, event management, and campus registration workflows.
-* Built with **Laravel 11**, MySQL, and Tailwind CSS.
-* Implements multi-role access control (admin, organizers, participants), ticket generation, event lifecycle management, and real-time activity dashboards.
+Currently serving as the Head of the Programmer Division at UKM Robotika UMRAH and leading autonomous navigation and software development for **Navantara ASV** (Autonomous Surface Vessel) in the national **Kontes Kapal Indonesia (KKI)**.
 
 ---
 
-### Technical Skills
+### Featured Projects
 
-| Domain | Technologies & Frameworks |
+#### [asv_control_system-new](https://github.com/nabilanaufal12/asv_control_system-new) &middot; Navantara ASV Autonomous Stack
+Autonomous control and vision architecture for an Autonomous Surface Vessel competing in Kontes Kapal Indonesia.
+* **Perception**: Custom YOLOv11 pipeline accelerated with NVIDIA TensorRT on a Jetson Orin Nano for real-time buoy detection and marine obstacle tracking.
+* **Navigation & Control**: ROS 2 packages implementing spatial memory buffers, dynamic buoy gate identification, rolling 2D costmaps, and adaptive Pure Pursuit trajectory tracking.
+* **Embedded Interface**: Closed-loop propulsion control, inverse kinematics, and telemetry bridging implemented on ESP32 microcontrollers.
+
+#### [temu-umrah](https://github.com/nabilanaufal12/temu-umrah) &middot; Campus Activity & Event Platform
+A full-stack web platform built for managing student organizations, campus events, and ticket distributions at UMRAH.
+* Engineered with **Laravel 11**, MySQL, and Tailwind CSS.
+* Features role-based access control (administrators, event organizers, students), automated QR e-tickets, event approvals, and activity analytics.
+
+#### [smart_kja](https://github.com/nabilanaufal12/smart_kja) &middot; Smart Keramba Jaring Apung (KJA) IoT
+Mobile application designed to monitor environmental parameters for marine aquaculture (floating net cages).
+* Built with **Flutter (Dart)** for cross-platform mobile telemetry monitoring.
+* Integrates real-time sensor streams (water quality, temperature, dissolved oxygen) and alert thresholds for fish farmers.
+
+#### [GeoMath-WebAR](https://github.com/nabilanaufal12/GeoMath-WebAR) &middot; Web-Based Augmented Reality
+Interactive educational tool rendering 3D geometric shapes directly in the browser via WebAR technology without requiring standalone app installations.
+
+#### [Merayau-Benan](https://github.com/nabilanaufal12/Merayau-Benan) &middot; Local Commerce & Service Portal
+Community-focused web platform supporting local island services and tourism in Benan Island, integrating Google Gemini API for automated user assistance and direct WhatsApp ordering workflows.
+
+---
+
+### Technical Focus
+
+| Area | Tools & Technologies |
 | :--- | :--- |
-| **Robotics & Simulation** | ROS 2 (Humble / Jazzy), Gazebo Sim, RViz2, URDF/Xacro, Pure Pursuit, Costmap 2D |
-| **Edge AI & Computer Vision** | NVIDIA Jetson (Orin Nano), TensorRT, YOLOv11, OpenCV, PyTorch |
-| **Languages** | Python, C/C++, PHP, JavaScript, SQL, Bash |
-| **Embedded & Hardware** | ESP32, Arduino, GNSS / GPS, IMU, Serial/UART, PWM Actuators |
-| **Web & Backend** | Laravel 11, MySQL, Tailwind CSS, Blade, RESTful APIs |
-| **DevOps & Environments** | Linux (Ubuntu 24.04 LTS), Git, Docker, SSHFS / Remote Development |
+| **Robotics & Autonomous Systems** | ROS 2 (Humble / Jazzy), Gazebo Sim, RViz2, Pure Pursuit, Costmap 2D, URDF |
+| **Edge AI & Computer Vision** | NVIDIA Jetson Orin Nano, TensorRT, YOLOv11, OpenCV, PyTorch |
+| **Embedded & Hardware** | ESP32, Arduino, GNSS / GPS, IMU, Serial / UART, Motor Actuation |
+| **Software & Web Development** | Laravel 11, PHP, Python, Flutter / Dart, JavaScript, MySQL, Tailwind CSS |
+| **Environments & Tools** | Linux (Ubuntu 24.04 LTS), Git, Docker, Zabbix, VS Code / Antigravity |
+
+---
+
+### Competitions & Activities
+
+* **Kontes Kapal Indonesia (KKI)** &mdash; Autonomous Surface Vessel (ASV) Team Lead & Navigation Programmer, Tim Navantara UMRAH (BPTI / Kemendikbudristek).
+* **UKM Robotika UMRAH** &mdash; Head of Programmer Division (Ketua Divisi Pemrogram).
+* **Astra Honda Motor Best Student (AHMBS)** &mdash; 2nd Place Regional & National Grand Finalist.
 
 ---
 
@@ -60,7 +69,7 @@ Comprehensive web platform for university student organizations, event managemen
 
 ---
 
-### Connect
+### Contact
 
 * **Email**: [nabilxmia@gmail.com](mailto:nabilxmia@gmail.com)
 * **GitHub**: [github.com/nabilanaufal12](https://github.com/nabilanaufal12)
