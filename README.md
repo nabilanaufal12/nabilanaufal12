@@ -1,45 +1,67 @@
-# Hi there, I'm Nabil! 👋 
+# Nabil A. Naufal
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Informatics%20Engineering&fontSize=50&animation=fadeIn" />
-</p>
+**Informatics Engineering Undergraduate** at [Universitas Maritim Raja Ali Haji (UMRAH)](https://umrah.ac.id)  
+*Autonomous Systems & Embedded Software Lead at **Tim Navantara UMRAH***  
+Tanjungpinang, Kepulauan Riau, Indonesia
 
-### 👨‍💻 About Me
-Saya adalah mahasiswa Teknik Informatika semester 3 yang bersemangat dalam pengembangan perangkat lunak (Software Engineering) dan sistem robotika. Saya menjadikan **Ubuntu 24.04 LTS** sebagai *daily driver* untuk mendukung alur kerja pengembangan yang efisien.
+---
 
-- 🔭 **Sedang Mengerjakan:** Mengembangkan **Website Portofolio Personal** interaktif menggunakan **Next.js dan TypeScript** untuk memamerkan proyek, pengalaman, dan sertifikat yang saya miliki.
-- 🚢 **Proyek Robotika & Riset:** Riset *Autonomous Surface Vehicle* (ASV) menggunakan Python dengan integrasi sistem sensor GNSS/RTK.
-- 🌱 **Fokus Pembelajaran Saat Ini:** Struktur Data & Algoritma, serta pendalaman ekosistem React/Next.js untuk *frontend development*.
-- 💬 **Mari Berdiskusi Tentang:** Linux troubleshooting, dasar-dasar Python, atau pengembangan web modern (Next.js).
+### About
 
-### 💼 Pengalaman & Proyek Utama
-- 💻 **Personal Portfolio Website** 
-  - Membangun website portofolio responsif dari awal menggunakan **Next.js, React, dan TypeScript**.
-  - Mengimplementasikan arsitektur berbasis komponen (seperti `HeroSection`, `ExperienceSection`, `ProjectsSection`, dan `CertificatesSection`) untuk UI/UX yang modular dan rapi.
-- 🚗 **RentalKu**
-  - Platform *booking* rental mobil & paket *tour* modern.
-- 🤖 **Riset Autonomous Surface Vehicle (ASV)**
-  - Mengembangkan sistem navigasi dan kontrol robotika.
+Undergraduate student specializing in **Autonomous Marine Robotics, Edge AI, and Full-Stack Software Engineering**. 
 
-### 🛠 Tech Stack & Tools
-| Kategori | Teknologi |
+Currently leading the autonomous software and navigation stack for **Navantara ASV** (Autonomous Surface Vessel) representing UMRAH in the national **Kontes Kapal Indonesia (KKI)** organized by Balai Pengembangan Talenta Indonesia (BPTI / Kemendikbudristek). Experienced in building end-to-end robotics pipelines—from sensor integration and TensorRT vision models to ROS 2 control algorithms and low-level firmware.
+
+---
+
+### Engineering & Focus Areas
+
+* **Autonomous Robotics (ROS 2)**: Autonomous surface vehicle navigation, spatial costmap generation, buoy gate detection & pairing, and adaptive Pure Pursuit path tracking. Cross-compatible architectures on ROS 2 Humble and Jazzy with Gazebo simulation and URDF modeling.
+* **Edge AI & Computer Vision**: Object detection pipelines for marine environments using YOLOv11, optimized and deployed via NVIDIA TensorRT on Jetson Orin Nano hardware.
+* **Embedded Systems & Control**: Microcontroller firmware development (ESP32 / Arduino C++), dual-thruster/rudder kinematics, GNSS/RTK and IMU sensor fusion, and GCS telemetry bridges.
+* **Software & Web Engineering**: Production web application development with Laravel 11, Tailwind CSS, and relational database architecture.
+
+---
+
+### Key Projects
+
+#### 🚢 [Navantara ASV](https://github.com/nabilanaufal12) — Autonomous Surface Vessel (KKI)
+Modular ROS 2 autonomous navigation and perception stack for a competition-class catamaran ASV.
+* **Perception & Vision**: Custom-trained YOLOv11 model converted to TensorRT (`best.engine`) running on an NVIDIA Jetson Orin Nano for real-time red/green buoy detection and obstacle tracking.
+* **Navigation Stack**: Custom ROS 2 packages (`navantara_navigation`, `navantara_perception`, `navantara_control_bridge`) featuring a 4-second global spatial memory buffer, dynamic gate midpoint calculations, and rolling 2D costmaps in RViz2.
+* **Low-Level Hardware**: Custom ESP32 firmware handling closed-loop propulsion, inverse steering kinematics, and failsafe modes over serial telemetry.
+
+#### 🌐 Temu UMRAH — Campus Activity & Organization Platform
+Comprehensive web platform for university student organizations, event management, and campus registration workflows.
+* Built with **Laravel 11**, MySQL, and Tailwind CSS.
+* Implements multi-role access control (admin, organizers, participants), ticket generation, event lifecycle management, and real-time activity dashboards.
+
+---
+
+### Technical Skills
+
+| Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Frontend** | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
-| **OS & Tools** | ![Ubuntu](https://img.shields.io/badge/-Ubuntu-E9431F?style=flat-square&logo=ubuntu&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Robotics & Simulation** | ROS 2 (Humble / Jazzy), Gazebo Sim, RViz2, URDF/Xacro, Pure Pursuit, Costmap 2D |
+| **Edge AI & Computer Vision** | NVIDIA Jetson (Orin Nano), TensorRT, YOLOv11, OpenCV, PyTorch |
+| **Languages** | Python, C/C++, PHP, JavaScript, SQL, Bash |
+| **Embedded & Hardware** | ESP32, Arduino, GNSS / GPS, IMU, Serial/UART, PWM Actuators |
+| **Web & Backend** | Laravel 11, MySQL, Tailwind CSS, Blade, RESTful APIs |
+| **DevOps & Environments** | Linux (Ubuntu 24.04 LTS), Git, Docker, SSHFS / Remote Development |
 
-### 📊 GitHub Activity
+---
+
+### GitHub Metrics
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nabilanaufal12&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nabilanaufal12&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
-### 📫 Let's Connect!
-<p align="left">
-  <a href="https://instagram.com/_mizuuu12" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=nabilanaufal12&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nabilanaufal12&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="150" />
 </p>
 
 ---
-*“Done is better than perfect, but keep improving.”*
+
+### Connect
+
+* **Email**: [nabilxmia@gmail.com](mailto:nabilxmia@gmail.com)
+* **GitHub**: [github.com/nabilanaufal12](https://github.com/nabilanaufal12)
+* **Instagram**: [@_mizuuu12](https://instagram.com/_mizuuu12)
